@@ -8,7 +8,7 @@
     <title>number</title>
     <script>
         var t;
-        function heavydriver() {
+        function process() {
             var entered = document.getElementById("number").value;
             if (entered >= 10) {
                 alert("Please enter value less than 10");
@@ -72,7 +72,7 @@
 <body>
     <div id="disp"></div>
     <h2>Enter a number</h2>
-    <input id="number" type="text" onkeyup="heavydriver()" />
+    <input id="number" type="text" onkeyup="process()" />
 </body>
 
 </html>
